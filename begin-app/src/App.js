@@ -32,7 +32,7 @@ function App() {
           {/* 게시글 페이지 경로 */}
           <Route path="/ownerpost" element={<OwnerPostPage />} />
 
-          {/* 카테고리 페이지 경로 */}
+          {/* 카테고리 경로 */}
           <Route path='/category/:category' element={<CategoryPage />} />
         </Routes>
       </div>
