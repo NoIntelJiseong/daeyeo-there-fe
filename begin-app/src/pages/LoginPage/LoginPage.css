@@ -1,0 +1,78 @@
+.main-image{
+    width:100%;
+  }
+  .헤더{
+    display: flex;
+    align-items: center;
+    gap:160px;
+    margin-right:80px;
+    margin-left: 80px;
+    margin-top:50px;
+  }
+  .search-bar{
+    flex:auto;
+  }
+  .image-container{
+    width:15%;
+    margin-right:40px;
+    /*max-width: 266px; 
+    max-height: 100px; 
+    position: absolute;
+    top: 5.3%;*/
+  }
+  #로그인{
+    display: flex;
+    gap:5px;
+  }
+  .가입버튼{
+    width:75px;
+    height:35px;
+    color:#286270;
+    font-size: 15px;
+    background-color: transparent;
+    border: 0px;
+  }
+  #빌려주기{
+    width:85px;
+    background-color: #286270;
+    color:#F2EEE4;
+    border-radius: 5px;
+  }
+  #로그인-컨테이너 {
+    width: 320px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  .center-box {
+    width: 450px; 
+    height: 582px; 
+    background-color: #ffffff; 
+    border: 1px solid rgba(40, 98, 112, 0.25);
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .center-box p {
+    position: absolute;
+    top: 17.5%;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .logo-image {
+    max-width: 175px; 
+    max-height: 100px; 
+    position: absolute;
+    top: 7.5%;
+  }

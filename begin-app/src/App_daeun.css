@@ -1,0 +1,38 @@
+.main-image{
+  width:100%;
+  
+}
+.헤더{
+  display: flex;
+  align-items: center;
+  gap:160px;
+  margin-right:80px;
+  margin-left: 80px;
+  margin-top:50px;
+}
+.search-bar{
+  flex:auto;
+}
+.image-container{
+  width:15%;
+  margin-right:40px;
+  
+}
+#로그인{
+  display: flex;
+  gap:5px;
+}
+.가입버튼{
+  width:75px;
+  height:35px;
+  color:#286270;
+  font-size: 15px;
+  background-color: transparent;
+  border: 0px;
+}
+#빌려주기{
+  width:85px;
+  background-color: #286270;
+  color:#F2EEE4;
+  border-radius: 5px;
+}

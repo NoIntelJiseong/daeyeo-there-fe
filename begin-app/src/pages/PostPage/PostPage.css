@@ -1,0 +1,153 @@
+/* General Styling */
+.main-image {
+    width: 100%;
+}
+
+.헤더 {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    margin: 50px 80px;
+}
+
+.search-bar {
+    flex: auto;
+}
+
+.image-container {
+    width: 15%;
+    margin-right: 40px;
+}
+
+#로그인 {
+    display: flex;
+    gap: 5px;
+}
+
+.가입버튼 {
+    width: 75px;
+    height: 35px;
+    color: #286270;
+    font-size: 15px;
+    background-color: transparent;
+    border: 0px;
+}
+
+#빌려주기 {
+    width: 85px;
+    background-color: #286270;
+    color: #F2EEE4;
+    border-radius: 5px;
+}
+
+/* Main post detail container */
+.post-detail-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Small images stacked vertically */
+.small-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-image {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* Large image in the center */
+.large-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-image {
+    width: 400px; /* Adjust size as needed */
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+/* Right section: product title, price, and tags */
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 300px;
+}
+
+/* Product title */
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Product price */
+.post-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Tags */
+.post-tags {
+    margin-bottom: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+/* Below image section: side by side layout */
+/* Below image section: stacked layout */
+.below-image-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.post-description {
+    font-size: 18px;
+    margin-bottom: 10px; /* Optional: Add some space below the description */
+}
+
+.reviews-section {
+    flex: 1; /* Reviews section takes up less space */
+    margin-left: 5px; /* Optional: Reduce space between description and reviews */
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.trust-score-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .trust-score-graph {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }

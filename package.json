@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "date-fns": "^4.1.0",
+    "react-calendar": "^5.0.0",
+    "react-color-palette": "^7.3.0",
+    "react-datepicker": "^7.3.0",
+    "react-router-dom": "^6.26.2",
+    "styled-components": "^6.1.13"
+  }
+}

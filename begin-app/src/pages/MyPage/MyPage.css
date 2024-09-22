@@ -1,0 +1,292 @@
+.main-image{
+  width:100%;
+}
+.헤더{
+  display: flex;
+  align-items: center;
+  gap:160px;
+  margin-right:80px;
+  margin-left: 80px;
+  margin-top:50px;
+}
+.search-bar{
+  flex:auto;
+}
+.image-container{
+  width:15%;
+  margin-right:40px;
+  /*max-width: 266px; 
+  max-height: 100px; 
+  position: absolute;
+  top: 5.3%;*/
+}
+#로그인{
+  display: flex;
+  gap:5px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds some spacing between buttons */
+}
+
+.가입버튼 {
+  background: none; /* Removes the default button background */
+  border: none;     /* Removes the default button border */
+  cursor: pointer;  /* Shows pointer cursor on hover */
+}
+
+#빌려주기{
+  width:85px;
+  background-color: #286270;
+  color:#F2EEE4;
+  border-radius: 5px;
+}
+#로그인-컨테이너 {
+  width: 320px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #F9F9F9;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.center-box {
+  width: 450px; 
+  height: 582px; 
+  background-color: #ffffff; 
+  border: 1px solid rgba(40, 98, 112, 0.25);
+  border-radius: 8px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-box p {
+  position: absolute;
+  top: 17.5%;
+  font-weight: bold;
+  font-size: 15px;
+}
+.logo-image {
+  max-width: 175px; 
+  max-height: 100px; 
+  position: absolute;
+  top: 7.5%;
+}
+.button-image {
+  width: 40px;  /* Adjust width of the images */
+  height: 40px; /* Adjust height of the images */
+  object-fit: cover; /* Ensures the image fits the button nicely */
+}
+
+/* src/MyPage.css */
+
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* 이미지를 둥글게 만듦 */
+  object-fit: cover; /* 이미지를 잘라서 맞추기 */
+}
+
+
+.transactions, .trust-score {
+  margin-top: 20px;
+}
+
+.profile-image-container {
+  text-align: center;
+}
+
+.profile-image-placeholder {
+  width: 100px; /* 원하는 너비 설정 */
+  height: 100px; /* 원하는 높이 설정 */
+  overflow: hidden; /* 넘치는 부분 숨김 */
+  border-radius: 50%; /* 동그라미 형태로 만들기 */
+  display: flex; /* 중앙 정렬을 위해 flexbox 사용 */
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: center; /* 가로 중앙 정렬 */
+}
+
+.profile-image-placeholder img {
+  width: 100%; /* 너비를 100%로 설정 */
+  height: 100%; /* 높이도 100%로 설정 */
+  object-fit: cover; /* 이미지를 꽉 채우도록 설정 */
+}
+
+
+.product-follower {
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
+}
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.nickname {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bio {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #286270;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button.review {
+  background-color: #286270;
+}
+
+.trust-score-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-score-graph {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #f0f0f0;
+  position: relative;
+}
+
+.semi-circle {
+  width: 100px;
+  height: 50px;
+  border-radius: 50% 50% 0 0;
+  background-color: #286270;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.trust-score-label {
+  position: absolute;
+  top: 50%; /* 세로 중앙 */
+  left: 50%; /* 가로 중앙 */
+  transform: translate(-50%, -50%); /* 중앙 정렬을 위해 위치 조정 */
+  font-size: 12px;
+  color: #286270;
+  text-align: center; /* 텍스트 정렬을 중앙으로 */
+}
+
+.my-page {
+  padding: 20px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  margin: 0 auto; /* 페이지 중앙에 정렬 */
+  margin-top: 100px; /* 페이지 상단에서부터 간격 조정 */
+  margin-bottom: 40px;
+  align-self: center; /* flexbox 내에서 중앙 정렬 */
+}
+
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap; /* 게시글이 넘치면 다음 줄로 이동 */
+  gap: 20px; /* 카드 사이 간격 */
+  justify-content: center; /* 수평 중앙 정렬 */
+}
+
+.post-card {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+}
+
+.post-image {
+  width: 100%;
+  height: 150px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  overflow: hidden; /* 이미지를 넘칠 경우 잘라내기 */
+}
+
+.post-image-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지를 요소 크기에 맞게 잘라서 표시 */
+}
+
+.post-image img {
+  width: 100%; /* 또는 원하는 크기로 변경 (예: 150px) */
+  height: auto; /* 비율을 유지하면서 높이를 자동 조정 */
+  object-fit: cover;
+}
+
+.title {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.tag {
+  font-size: 12px;
+  color: #555;
+  background-color: #f1f1f1;
+  padding: 3px 5px;
+  border-radius: 5px;
+}

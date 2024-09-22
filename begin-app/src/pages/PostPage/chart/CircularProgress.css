@@ -1,0 +1,21 @@
+/* CircularProgress.css */
+svg {
+    display: block;
+    
+  }
+  
+  text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  /* CircularProgress.css */
+
+/* 애니메이션 효과 */
+.progress-circle {
+  transition: stroke-dashoffset 1s ease-in-out; /* 1초 동안 애니메이션 */
+}
+
+.background-circle {
+  transition: stroke 0.3s ease; /* 배경 원도 변화를 부드럽게 */
+}

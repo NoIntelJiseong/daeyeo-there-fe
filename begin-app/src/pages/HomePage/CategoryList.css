@@ -1,0 +1,14 @@
+/* CategoryList.css */
+/* CategoryList.css */
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7개의 열을 생성 */
+     /* 아이템 간의 간격 조정 */
+    justify-items: center; /* 아이템을 가로 중앙 정렬 */
+    padding: 20px; /* 전체 패딩 */
+    
+    margin-left:300px;
+    margin-right: 300px;
+  }
+  
+  

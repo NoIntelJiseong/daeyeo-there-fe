@@ -1,0 +1,90 @@
+/* PostCard.css */
+.post-card {
+  
+  
+    overflow: hidden;
+    width: 200px; /* 카드 너비 조정 */
+    margin: 10px;
+    margin-bottom: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+    .post-image-link {
+      text-decoration: none; /* 링크에 밑줄 제거 */
+      color: inherit; /* 링크 색상 유지 */
+    }
+    
+    .post-image-wrapper {
+      width: 200px;
+      height: 200px; /* 이미지 컨테이너를 정사각형으로 설정 */
+      overflow: hidden; /* 이미지를 넘는 부분을 숨김 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      
+    }
+    
+    .post-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 이미지가 정사각형 안에 꽉 차게 맞춤 */
+    }
+    
+    .post-info {
+      margin-top: 15px;
+      text-align: left;
+    }
+    
+    .post-nickname {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      margin-bottom: 1px;
+    }
+    
+    .profile-dot {
+      display: flex;
+      width: 20px;
+      height: 20px;
+
+      border-radius: 50%;
+      margin-right: 5px;
+
+    }
+    
+    .post-title {
+      font-size: 14px;
+      font-weight: bold;
+      
+      text-decoration: none;
+      text-align: left;
+      color: #333;
+      
+    }
+    
+  
+    
+    .post-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: center;
+      margin-top: 6px;
+    }
+    
+    .post-tag {
+      background-color: #dfe6e7;
+      border-radius: 5px;
+      padding: 3px 5px;
+      font-size: 10px;
+    }
+    
+  
+  
+   

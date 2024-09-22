@@ -1,0 +1,11 @@
+  /* PostCardList.css */
+  .post-card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4개의 열 */
+    gap: 10px; /* 카드 간의 간격 */
+    padding: 20px;
+    justify-items: center; /* 아이템을 가운데 정렬 */
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  

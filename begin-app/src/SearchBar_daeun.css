@@ -1,0 +1,33 @@
+/* SearchBar.css */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 300px; /* 원하는 너비로 조절 */
+    height:35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 25px; /* input이 둥글게 모서리 설정 */
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .search-icon {
+    width: 16px; /* 아이콘 크기 */
+    height: 16px;
+  }
+  

@@ -1,0 +1,78 @@
+.join-bar {
+  width: 100%;
+  max-width: 320px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.email-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.verify-button {
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  background-color: #286270;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container .input-field {
+  padding-right: 50px; /* Adds space for the 'Show/Hide' button */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 55%;
+  transform: translateY(-100%);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.join-button {
+  width: 100%;
+  height: 45px;
+  background-color: #286270;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.join-button.activate {
+  background-color: #004e5f;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.checkbox-container input {
+  margin-right: 8px;
+}

@@ -1,0 +1,41 @@
+/* CategoryItem.css */
+.category-item {
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    align-items: center;
+    position: relative; /* 자식 요소의 위치를 조정하기 위해 relative 사용 */
+    margin: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px; /* 아이템 크기 조절 */
+    height: 110px;
+    border: 2px solid #286270;
+    border-radius: 10px; /* 둥근 모서리 */
+    margin-bottom: 20px; /* 아이콘과 라벨 사이의 간격 */
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .category-icon {
+    max-width: 70px;
+    max-height: 70px;
+  }
+  
+  .category-label {
+    position: absolute;
+    bottom: -20px; /* border 아래로 위치 */
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+    
+  }
+  .category-item .icon-wrapper {
+    pointer-events: auto; /* 클릭이 가능하도록 설정 */
+  }
